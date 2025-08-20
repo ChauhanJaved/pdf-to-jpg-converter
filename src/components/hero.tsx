@@ -61,38 +61,6 @@ export default function Hero() {
               />
             </div>
             {portfolioItemDesktop.description}
-            <div className="mt-10 flex w-full flex-col items-start gap-3">
-              <strong>Helpful Links for Desktop App</strong>
-              <Button asChild variant={"link"} className="h-auto px-0 py-0">
-                <Link href={"/help"} onClick={() => setActiveSection("")}>
-                  TIFF to PDF Converter software user guide
-                </Link>
-              </Button>
-              <Button asChild variant={"link"} className="h-auto px-0 py-0">
-                <Link
-                  href={"/batch-tiff-pdf-conversion"}
-                  onClick={() => setActiveSection("")}
-                >
-                  How to convert TIFF to PDF in batch?
-                </Link>
-              </Button>
-              <Button asChild variant={"link"} className="h-auto px-0 py-0">
-                <Link
-                  href={"/how-to-merge-tiff-to-pdf"}
-                  onClick={() => setActiveSection("")}
-                >
-                  How to combine multiple TIFF to PDF in Windows?
-                </Link>
-              </Button>
-              <Button asChild variant={"link"} className="h-auto px-0 py-0">
-                <Link
-                  href={"/how-to-split-tiff-into-pdf"}
-                  onClick={() => setActiveSection("")}
-                >
-                  How do I split TIFF into PDF file?
-                </Link>
-              </Button>
-            </div>
           </>
         )}
       </div>
