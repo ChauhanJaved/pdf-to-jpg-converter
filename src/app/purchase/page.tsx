@@ -16,7 +16,7 @@ export default function ContactRedirectPage() {
           href="https://www.pdf-to-jpg-converter.com/#purchase"
           className="text-blue-600 underline"
         >
-          Contact section
+          Purchase section
         </a>
         ...
       </p>
