@@ -14,10 +14,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       priority: 1,
     },
-    {
-      url: `${portfolioItemDesktop?.productWebsite}/index.html`,
-      lastModified: new Date(),
-      priority: 0.9,
-    },
   ];
 }
