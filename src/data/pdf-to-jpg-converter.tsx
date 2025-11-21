@@ -120,7 +120,7 @@ export const PDFtoJPGConverter: portfolioItem = {
       title: `Free ${productTitles.PDFtoJPGConverter} for Windows | Fast & Secure PDF to JPG Tool`,
       description:
         "Easily convert PDF files to JPG with our fast and free Windows software. Enjoy a user-friendly interface, batch processing, and customizable settings to ensure top-quality image output.",
-      url: `https://www.frameworkteam.com/${ProductIDs.PDFtoJPGConverter}.html`,
+      url: productWebsites.PDFtoJPGConverter,
       siteName: `${productTitles.PDFtoJPGConverter} for Windows`,
       images: [
         {
@@ -135,6 +135,18 @@ export const PDFtoJPGConverter: portfolioItem = {
       ],
       locale: "en_US",
       type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Free ${productTitles.PDFtoJPGConverter} for Windows | Fast & Secure PDF to JPG Tool`,
+      description:
+        "Easily convert PDF files to JPG with our fast and free Windows software. Enjoy a user-friendly interface, batch processing, and customizable settings to ensure top-quality image output.",
+      images: [
+        cloudinaryLoader({
+          src: productImages.PDFtoJPGConverter.imgName,
+          width: productImages.PDFtoJPGConverter.width,
+        }),
+      ],
     },
   },
 };
